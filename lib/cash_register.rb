@@ -13,7 +13,6 @@ class CashRegister
     @total += price*quantity 
     quantity.times {@items << title }
   end 
-end 
 
   def apply_discount
     if self.discount == 0 
